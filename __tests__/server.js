@@ -1,5 +1,5 @@
 const request = require('supertest')
-const app = require('../server')
+const app = require('../app')
 
 describe('Should return with an error if no parameters given', () => {
   it('error test', () => {
